@@ -187,15 +187,17 @@ button:hover {
 }
 .second-section .second-section__content .second-section__right {
   display: flex;
-  flex-direction: row;
-  gap: 50px;
+  flex-direction: column;
   position: relative;
 }
 .second-section .second-section__content .second-section__right .main-photo-2 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 120%;
+  width: 100%;
+  border: black 1px solid;
+}
+.second-section .second-section__content .second-section__right .second-section__top {
+  display: flex;
+  flex-direction: row;
+  border: black 1px solid;
 }
 .second-section .second-section__content .second-section__right .second-section__lite {
   margin-top: 80px;
